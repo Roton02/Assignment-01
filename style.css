@@ -2,6 +2,9 @@
 body{
     /* font-family: Merriweather;  */
     /* margin: 20px 50px 20px 50px; */
+    button{
+        cursor: pointer;
+    }
 }
 /* header-section-style */
 .banner{
