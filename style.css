@@ -71,6 +71,10 @@ font-weight: 500;
 .section-02{
     background-image: url('resources/Vectorrr.png');
     background-repeat: no-repeat;
+    /* <linearGradient id="paint0_linear_114_6289" x1="0" y1="300" x2="1320" y2="300" gradientUnits="userSpaceOnUse">
+<stop stop-color="#070211"/>
+<stop offset="1" stop-color="#070211" stop-opacity="0"/>
+</linearGradient> */
     width: 1320px;
     height: 600px;
     margin: auto;
@@ -147,6 +151,27 @@ font-weight: 500;
     text-align: center;
     padding-top: 20px;
 }
+.sec-4-title-1{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.sec-4-title-2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sec-4-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+#Year{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
 
 /* section-05-style */
 .section-05{
@@ -218,10 +243,63 @@ font-weight: 500;
 
 .sec-6-description{
     color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
 }
 
 .sec-6-one-by-one-img{
     padding-right: 13px;
+}
+
+/* sectionx-07-style */
+.sec-07{
+    margin: auto;
+    width: 1320px;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+ .sec-07 input{
+    width: 448px;
+    height: 52px;
+    background-color: #FFF;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    
+ }
+.sec-07-btn{
+    width: 150px;
+    height: 52px;
+    color: #FFF;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding-right: px;
+}
+
+/* footer-section-style */
+footer{
+    /* width: 1400px; */
+    height: 600px;
+    /* margin: auto; */
+    background: #070211;
+    
+   
+}
+.footer-sec{
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    padding: 80PX 120px 0 80px;
+    font-size: 24px;
+}
+
+.footer-anchor{
+    text-align: center;
+
 }
