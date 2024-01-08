@@ -1,0 +1,227 @@
+
+body{
+    /* font-family: Merriweather;  */
+    /* margin: 20px 50px 20px 50px; */
+}
+/* header-section-style */
+.banner{
+    background-image: url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+header{
+    margin-top: 100px;
+}
+
+.header-content{
+    text-align: center;
+    padding: 200px 344px 150px 344px;
+}
+.header-title{
+    color: #FFF;
+    font-size: 60px;
+    font-family: Merriweather;
+    width: 632px;
+}
+.head-title{
+    color: #FFF;
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 400;
+}
+
+/* main-section-01-style */
+section{
+    margin-bottom: 50px;
+    margin-top: 50px;
+   
+}
+.sec-01{
+    text-align: center;
+    padding-top: 20px;
+}
+.sec-01-title{
+    color: #F00;
+font-size: 70px;
+font-weight: 700;
+}
+.sec-01-description{
+    color: #F00;
+font-size: 20px;
+font-weight: 500;
+}
+.sec-1-2nd-h{
+    color: #070211; 
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sec1-img{
+    width: 802px;
+    height: 500px;
+    padding:10px 200px 50px 200px ;
+}
+
+/* section-02-style */
+
+.section-02{
+    background-image: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.sec-02-title{
+    color: #FFF;
+    font-size: 64px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 88px;
+    padding: 126px 500px 0px 126px;
+}
+
+.sec-02-description{
+    color: #FFF;
+    padding: 0 450px 0 126px;
+}
+
+.sec02-btn{
+    margin-left: 136px;
+    color: #0e0000;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: none;
+}
+
+/* section-03-style */
+
+.sec-03-title{
+    color: red;
+}
+.section-03{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    background-color: rgba(255, 0, 0, 0.10) ;
+    width: 1320px;
+    height: 400px;
+    margin: auto;
+    padding-top: 80px;
+}
+.section-03-contain{
+    padding:0%;
+}
+.btn-color{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background: #F00;
+    padding: 16px 32px;
+}
+
+/* section-04-style */
+.sec-04{
+    display: flex;
+    justify-content: space-around;
+   margin: auto;
+    width: 1320px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.sec-4-img{
+    border-radius: 100% ;
+    border: 15px solid #F00;
+    width: 400px;
+    height: 390px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* section-05-style */
+.section-05{
+    width: 1320px;
+    height: 1100px;
+    padding-top: 100px;
+    margin: auto;
+
+}
+.sec-5-content{
+    text-align: center;
+}
+.sec-5-title-1{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.sec-5-title-2{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+}
+.sec-5-span{
+    color: black;
+}
+.sec-5-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.sec-5-img{
+    padding-top: 80px;
+    background-image: url('resources/Rectangle\ 2.png'), url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    display: flex;
+}
+
+.sec-5-2nd-rectangle{
+    padding-bottom:229px;
+   /* padding-right: 300px; */
+   
+}
+
+
+/* section-06-style */
+
+.section-06{
+    margin: auto;
+    width: 1320px;
+}
+
+.sec-6-title-1{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sec-6-title-2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-6-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sec-6-one-by-one-img{
+    padding-right: 13px;
+}
