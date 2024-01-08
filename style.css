@@ -8,7 +8,8 @@ body{
 }
 /* header-section-style */
 .banner{
-    background-image: url('resources/Banner\ Image.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Banner\ Image.png');
+    border-radius: 16px;
     background-repeat: no-repeat;
     position: relative;
     width: 1320px;
@@ -72,42 +73,47 @@ font-weight: 500;
 /* section-02-style */
 
 .section-02{
-    background-image: url('resources/Vectorrr.png');
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Vectorrr.png');
     background-repeat: no-repeat;
-    /* <linearGradient id="paint0_linear_114_6289" x1="0" y1="300" x2="1320" y2="300" gradientUnits="userSpaceOnUse">
-<stop stop-color="#070211"/>
-<stop offset="1" stop-color="#070211" stop-opacity="0"/>
-</linearGradient> */
+    border-radius: 16px;
     width: 1320px;
     height: 600px;
     margin: auto;
     position: relative;
-    
+    display: flex;
+    justify-content: space-between; 
+}
+.section-02-img{
+    padding: 100px 150px 0 0 ;
 }
 
 .sec-02-title{
     color: #FFF;
-    font-size: 64px;
+    width: 642px;
     font-family: Merriweather;
+    font-size: 64px;
     font-weight: 900;
-    line-height: 88px;
-    padding: 126px 500px 0px 126px;
+    padding: 100px 0px 0px 126px;
+    margin-bottom: 30px;
 }
 
 .sec-02-description{
     color: #FFF;
-    padding: 0 450px 0 126px;
+    width: 597px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 126px;
+    margin-top: 0;
 }
 
 .sec02-btn{
     margin-left: 136px;
-    color: #0e0000;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 700;
     border: none;
-    background-color: none;
+    background-color:rgba(0,0,0,0.279);
 }
-
 /* section-03-style */
 
 .sec-03-title{
@@ -117,7 +123,8 @@ font-weight: 500;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    background-color: rgba(255, 0, 0, 0.10) ;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
     width: 1320px;
     height: 400px;
     margin: auto;
