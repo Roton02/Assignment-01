@@ -129,10 +129,16 @@ font-weight: 500;
     height: 400px;
     margin: auto;
     padding-top: 80px;
+    font-weight: 500;
+   
 }
-.section-03-contain{
-    padding:0%;
+
+.section-03,p{
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
+
 .btn-color{
     color: #FFF;
     font-size: 20px;
