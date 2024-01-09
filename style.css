@@ -6,6 +6,8 @@ body{
         cursor: pointer;
     }
 }
+
+
 /* header-section-style */
 .banner{
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Banner\ Image.png');
@@ -18,7 +20,7 @@ body{
     margin-bottom: 50px;
 }
 header{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .header-content{
@@ -132,13 +134,6 @@ font-weight: 500;
     font-weight: 500;
    
 }
-
-.section-03,p{
-    font-size: 32px;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
 .btn-color{
     color: #FFF;
     font-size: 20px;
@@ -152,11 +147,8 @@ font-weight: 500;
 /* section-04-style */
 .sec-04{
     display: flex;
-    justify-content: space-around;
-   margin: auto;
+    justify-content: space-between;
     width: 1320px;
-    height: 400px;
-    padding-top: 20px;
 }
 
 .sec-4-img{
@@ -301,6 +293,7 @@ footer{
     height: 600px;
     /* margin: auto; */
     background: #070211;
+    margin-bottom:0;
     
    
 }
@@ -313,7 +306,16 @@ footer{
     margin: auto;
     padding: 80PX 120px 0 80px;
     font-size: 24px;
+    
 }
+
+hr{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    
+    
+} 
 
 .footer-anchor{
     text-align: center;
