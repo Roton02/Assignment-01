@@ -1,7 +1,5 @@
 
 body{
-    /* font-family: Merriweather;  */
-    /* margin: 20px 50px 20px 50px; */
     button{
         cursor: pointer;
     }
@@ -54,17 +52,20 @@ section{
     color: #F00;
 font-size: 70px;
 font-weight: 700;
+font-family: 'Inter'
 }
 .sec-01-description{
     color: #F00;
 font-size: 20px;
 font-weight: 500;
+font-family: 'Inter'
 }
 .sec-1-2nd-h{
     color: #070211; 
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Inter'
 }
 .sec1-img{
     width: 802px;
@@ -106,15 +107,22 @@ font-weight: 500;
     font-weight: 400;
     padding-left: 126px;
     margin-top: 0;
+    font-family: 'Inter'
 }
 
 .sec02-btn{
     margin-left: 136px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     border: none;
     background-color:rgba(0,0,0,0.279);
+    
+    
+}
+
+.sec02-btn:hover{
+    /* box-shadow: 10px 10px 10px rgb(0, 47, 255); */
 }
 /* section-03-style */
 
@@ -124,6 +132,7 @@ font-weight: 500;
 .section-03{
     text-align: center;
     font-size: 32px;
+    font-family: 'Inter'
     font-weight: 400;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
@@ -185,6 +194,7 @@ font-weight: 500;
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    font-family: 'Inter'
 }
 .sec-4-title-2{
     color: #070211;
@@ -197,6 +207,7 @@ font-weight: 500;
     font-size: 24px;
     font-weight: 400;
     width: 276px;
+    font-family: 'Inter'
 }
 #Year{
     color: #F00;
@@ -219,6 +230,7 @@ font-weight: 500;
     color: #070211;
     font-size: 24px;
     font-weight: 500;
+    font-family: 'Inter'
 
 }
 .sec-5-title-2{
@@ -234,6 +246,7 @@ font-weight: 500;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Inter'
 }
 
 
@@ -269,6 +282,7 @@ font-weight: 500;
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    font-family: 'Inter'
 }
 
 .sec-6-title-2{
@@ -282,10 +296,14 @@ font-weight: 500;
     color: rgba(7, 2, 17, 0.60);
     font-size: 24px;
     font-weight: 400;
+    font-family: 'Inter'
 }
 
 .sec-6-one-by-one-img{
-    padding-right: 13px;
+    margin-right: 13px;
+}
+.sec-6-one-by-one-img:hover{
+    box-shadow: 10px 10px 45px rgb(255, 55, 88);
 }
 
 /* sectionx-07-style */
@@ -305,6 +323,13 @@ font-weight: 500;
     border-radius: 50px 0 0 50px;
     border: none;
     
+ }
+ .sec-07-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
  }
 .sec-07-btn{
     width: 150px;
@@ -335,6 +360,7 @@ footer{
     margin: auto;
     padding: 80PX 120px 0 80px;
     font-size: 24px;
+    font-family: Inter;
     
 }
 
